@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- header section -->
+    <section class="about-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu"></i>
+        </nav>
+        <h1>Our Certificate & Online Program For 2022</h1>
+    </section>
+
+    <!-- Blog content -->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/certificate.jpg" alt="">
+                <h2>Our Certificate & Online Programs For 2022</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe ab nesciunt earum numquam optio dicta, ipsa tenetur iusto, veritatis doloribus quaerat aliquid id laboriosam cum eum cumque quos perspiciatis beatae laudantium a quam! Vero tenetur doloremque reiciendis asperiores labore quia aliquid molestiae? Nam laudantium corrupti id similique odio? Quas beatae iusto quis, dicta ratione odit!</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum assumenda itaque amet consectetur fuga delectus aspernatur atque, molestiae aliquid commodi eius neque architecto, facere sit deserunt excepturi voluptas impedit culpa doloremque, laudantium voluptatum nobis illum deleniti. Laborum aspernatur suscipit numquam architecto molestiae cupiditate ut omnis delectus odio distinctio libero, asperiores eaque veritatis. Provident, fuga laboriosam rerum praesentium ut illo. Sequi, voluptatibus quia exercitationem adipisci mollitia in quidem sed repellat labore nisi officia quae, tenetur eligendi. Iusto aliquid, eaque nesciunt nulla cumque hic placeat ipsa molestias error excepturi cum, iure enim perferendis quam asperiores! Ex soluta repellendus nostrum et quibusdam ullam!</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi accusamus est ipsum necessitatibus laborum iusto nostrum illum recusandae. Dolorem, animi quisquam saepe cupiditate labore totam. Corrupti quasi, facere hic ea architecto magni culpa recusandae tempora quod atque pariatur error natus ullam minus eveniet rerum, aliquid non eum? Laudantium quibusdam odit quo nulla molestiae ea suscipit!</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam provident sit sapiente accusamus animi at vel. Architecto exercitationem, dicta amet quaerat fuga odio! Eligendi, a.</p>
+
+
+                <!-- comment box -->
+
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form action="" class="comment-form">
+                        <input type="text" placeholder="Jane Doe">
+                        <input type="email" placeholder="email@email.com">
+                        <textarea rows="5" placeholder="Your Comment"></textarea>
+                        <button class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>16</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>34</span>
+                </div>
+                <div>
+                    <span>AutoCAD</span>
+                    <span>42</span>
+                </div>
+                <div>
+                    <span>Journalism</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    
+
+    <!-- footer -->
+
+    <section class="footer">
+        <h4>ABOUT US</h4>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi quidem eos dignissimos blanditiis, sint in molestias, reprehenderit <br> praesentium voluptatem iste officia laudantium ullam architecto.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> By William Anaza</p>
+    </section>
+
+
+
+
+
+<!-- Javascript for toggle menu -->
+    <script>
+
+        var navLink = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLink.style.right = "0";
+        }
+        function hideMenu(){
+            navLink.style.right = "-200px";
+        }
+
+    </script>
+
+</body>
+</html>
